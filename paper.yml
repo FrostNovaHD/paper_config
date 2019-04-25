@@ -44,7 +44,7 @@ settings:
     enable: true
     generation: true
     thread-per-world-generation: true
-    load-threads: -1
+    load-threads: 1
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
