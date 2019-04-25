@@ -43,8 +43,8 @@ settings:
   async-chunks:
     enable: true
     generation: true
-    thread-per-world-generation: true
-    load-threads: 1
+    thread-per-world-generation: false
+    load-threads: -1
 messages:
   no-permission: '&cI''m sorry, but you do not have permission to perform this command.
     Please contact the server administrators if you believe that this is in error.'
@@ -70,7 +70,7 @@ world-settings:
     experience-merge-max-value: -1
     optimize-explosions: true
     disable-teleportation-suffocation-check: false
-    fire-physics-event-for-redstone: false
+    fire-physics-event-for-redstone: true
     use-vanilla-world-scoreboard-name-coloring: false
     delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
