@@ -62,16 +62,16 @@ world-settings:
     seed-ocean: 14357621
     seed-slime: 987234911
     max-tnt-per-tick: 100
-    mob-spawn-range: 8
+    mob-spawn-range: 3
     enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
     wither-spawn-sound-radius: 0
-    view-distance: 4
+    view-distance: 5
     arrow-despawn-rate: 1200
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
-    max-entity-collisions: 8
+    max-entity-collisions: 0
     growth:
       cactus-modifier: 100
       cane-modifier: 100
