@@ -68,7 +68,7 @@ world-settings:
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false
     experience-merge-max-value: -1
-    optimize-explosions: false
+    optimize-explosions: true
     disable-teleportation-suffocation-check: false
     fire-physics-event-for-redstone: false
     use-vanilla-world-scoreboard-name-coloring: false
@@ -153,8 +153,8 @@ world-settings:
       impact-sound: -1
       flash: -1
     anti-xray:
-      enabled: false
-      engine-mode: 1
+      enabled: true
+      engine-mode: 2
       chunk-edge-mode: 2
       max-chunk-section-index: 3
       update-radius: 2
@@ -174,6 +174,5 @@ world-settings:
       - ender_chest
       replacement-blocks:
       - stone
-      - planks
     squid-spawn-height:
       maximum: 0.0
