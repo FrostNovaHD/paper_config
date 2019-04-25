@@ -19,17 +19,17 @@ settings:
   update-folder: update
   plugin-profiling: false
   connection-throttle: 4000
-  query-plugins: true
+  query-plugins: false
   deprecated-verbose: default
   shutdown-message: Server closed
 spawn-limits:
-  monsters: 70
-  animals: 10
-  water-animals: 15
+  monsters: 35
+  animals: 7
+  water-animals: 10
   ambient: 15
 chunk-gc:
-  period-in-ticks: 600
-  load-threshold: 0
+  period-in-ticks: 400
+  load-threshold: 300
 ticks-per:
   animal-spawns: 400
   monster-spawns: 1
