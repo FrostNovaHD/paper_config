@@ -114,7 +114,7 @@ world-settings:
     baby-zombie-movement-speed: 0.5
     allow-leashing-undead-horse: false
     all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 1
+    mob-spawner-tick-rate: 3
     frosted-ice:
       enabled: true
       delay:
