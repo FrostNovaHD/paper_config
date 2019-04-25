@@ -92,7 +92,7 @@ world-settings:
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
-    keep-spawn-loaded-range: 64
+    keep-spawn-loaded-range: 24
     auto-save-interval: -1
     keep-spawn-loaded: true
     skip-entity-ticking-in-chunks-scheduled-for-unload: true
@@ -114,7 +114,7 @@ world-settings:
     baby-zombie-movement-speed: 0.5
     allow-leashing-undead-horse: false
     all-chunks-are-slime-chunks: false
-    mob-spawner-tick-rate: 3
+    mob-spawner-tick-rate: 2
     frosted-ice:
       enabled: true
       delay:
