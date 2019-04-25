@@ -92,7 +92,7 @@ world-settings:
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
-    keep-spawn-loaded-range: 8
+    keep-spawn-loaded-range: 64
     auto-save-interval: -1
     keep-spawn-loaded: true
     skip-entity-ticking-in-chunks-scheduled-for-unload: true
